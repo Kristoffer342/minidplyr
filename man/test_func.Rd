@@ -7,10 +7,20 @@
 test_func(x, y)
 }
 \arguments{
-\item{x}{}
+\item{x}{a number}
 
-\item{y}{}
+\item{y}{a number}
+}
+\value{
+Subtraction of \code{x - y}
 }
 \description{
-Title
+Description
+}
+\details{
+More detail
+}
+\examples{
+test_func(10, 20)
+test_func(20, 10)
 }
